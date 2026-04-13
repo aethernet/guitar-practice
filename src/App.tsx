@@ -4,6 +4,7 @@ import ChordPicker, { type ChordPickerHandle } from './components/ChordPicker'
 import PracticeTimer from './components/PracticeTimer'
 import StreakMonitor from './components/StreakMonitor'
 import Tuner from './components/Tuner'
+import About from './components/About'
 import { useStreak } from './hooks/useStreak'
 
 export default function App() {
@@ -42,6 +43,8 @@ export default function App() {
           totalSessions={streak.totalSessions}
           last30Days={streak.last30Days}
         />
+
+        <About />
       </div>
     </div>
   )
