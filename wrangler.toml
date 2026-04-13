@@ -1,6 +1,3 @@
 name = "guitar-practice"
 compatibility_date = "2026-04-13"
-
-[build]
-command = "npm run build"
-publish = "dist"
+pages_build_output_dir = "./dist"
